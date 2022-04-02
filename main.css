@@ -23,8 +23,6 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
-  --z-tooltip: 10;
-  --z-fixed: 100;
 }
 
 @media screen and (min-width: 768px){
@@ -121,7 +119,6 @@ img{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
 .nav{
@@ -177,12 +174,6 @@ img{
   font-size: 1.3rem;
   cursor: pointer;
 }
-
-/* Show menu */
-.show-menu{
-  top: var(--header-height);
-}
-
 /* Active menu */
 .active-link{
   color: var(--first-color);
